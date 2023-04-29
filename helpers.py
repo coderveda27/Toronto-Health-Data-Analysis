@@ -1,37 +1,9 @@
-"""CSC110 Fall 2022 Assignment 2, Part 3: Chaos, Fractals, Point Sequences
-
-Module Description
-==================
-This Python file contains some code for some helper functions for Part 3.
-
-You should not modify this file (we will be using our own version for testing purposes).
-You do *not* need to understand how any of this code works for Assignment 3.
-However, you should be able to read the function headers and docstrings of ALL functions
-in this file, as you will be using them in Part 3 of the assignment.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu, Tom Fairgrieve, and Angela Zavaleta Bernuy.
-"""
 import colorsys
 import math
 import sys
 
 import pygame
 
-
-###############################################################################
-# Pygame helper functions (Questions 1-3)
-###############################################################################
-# You should read the docstrings of each function below to understand how to call them.
-# However, you may *NOT* modify their implementations.
 
 def initialize_pygame_window(width: int, height: int) -> pygame.Surface:
     """Initialize and return a new pygame window with the given width and height.
