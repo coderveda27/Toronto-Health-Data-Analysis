@@ -1,23 +1,3 @@
-"""CSC110 Fall 2022 Assignment 3, Part 3: Chaos, Fractals, Point Sequences
-
-Instructions (READ THIS FIRST!)
-===============================
-
-This Python module contains the functions you should complete for Part 3.
-Note that this module imports a3_helpers.py, which you will need to read
-through to understand how to use the functions we've provided for you.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu and Tom Fairgrieve
-"""
 import random
 
 import a3_helpers
